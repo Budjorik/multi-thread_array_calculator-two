@@ -2,7 +2,6 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
 public class ForkJoinCalc extends RecursiveTask {
-    public static final long THRESHOLD = 2;
     private CountsArray countsArray;
     private int firstPosition;
     private int pastPosition;
